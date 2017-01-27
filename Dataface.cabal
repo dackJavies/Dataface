@@ -28,7 +28,7 @@ license:             GPL-3
 license-file:        LICENSE
 
 -- The package author(s).
-author:              Logan Moore, Jack Davis
+author:              Jack Davis, Logan Moore
 
 -- An email address to which users can send suggestions, bug reports, and 
 -- patches.
@@ -46,7 +46,7 @@ build-type:          Simple
 extra-source-files:  ChangeLog.md, README.md
 
 -- Constraint on the version of Cabal needed to build this package.
-cabal-version:       >=1.10
+cabal-version:       >=1.24
 
 
 executable Dataface
@@ -60,8 +60,8 @@ executable Dataface
   other-extensions:    OverloadedStrings, ExtendedDefaultRules
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.9 && <4.10, mtl >=2.2 && <2.3, mongodb >= 2.1 && <2.2
-  
+  build-depends:       base >=4.9 && <4.10, mtl >=2.2 && <2.3, mongoDB >= 2.1 && <2.2
+
   -- Directories containing source files.
   hs-source-dirs:      src
   
